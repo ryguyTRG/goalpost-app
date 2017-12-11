@@ -19,6 +19,7 @@
 		A5A1A29A1FDC8CF4002938F4 /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5A1A2981FDC8CF4002938F4 /* goalpost_app.xcdatamodeld */; };
 		A5A1A29C1FDC8CF4002938F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A1A29B1FDC8CF4002938F4 /* Assets.xcassets */; };
 		A5A1A29F1FDC8CF4002938F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A1A29D1FDC8CF4002938F4 /* LaunchScreen.storyboard */; };
+		A5F215CC1FDE00F9007616B8 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F215CB1FDE00F9007616B8 /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A5A1A29B1FDC8CF4002938F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A1A29E1FDC8CF4002938F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A1A2A01FDC8CF4002938F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F215CB1FDE00F9007616B8 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A5A1A2931FDC8CF4002938F4 /* GoalsVC.swift */,
 				A544BE1B1FDDE7690023F075 /* CreateGoalVC.swift */,
+				A5F215CB1FDE00F9007616B8 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				A5A1A2921FDC8CF4002938F4 /* AppDelegate.swift in Sources */,
 				A544BE1E1FDDE8E30023F075 /* UIViewControllerExt.swift in Sources */,
 				A544BE241FDDF1010023F075 /* UIButtonExt.swift in Sources */,
+				A5F215CC1FDE00F9007616B8 /* FinishGoalVC.swift in Sources */,
 				A5A1A29A1FDC8CF4002938F4 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
